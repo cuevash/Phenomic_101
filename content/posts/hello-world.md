@@ -2,7 +2,7 @@
 date: 2016-02-14T00:00:00.000Z
 hero: 'https://farm8.staticflickr.com/7479/15669216853_aa8e70eae1_o.jpg'
 layout: Post
-title: Welcome back to the future of static website aha!
+title: Welcome back to the future of static website aha done!!
 ---
 
 <!-- start lipsum code -->
