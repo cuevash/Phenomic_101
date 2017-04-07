@@ -1,7 +1,8 @@
 backend:
   name: github
-  repo: owner/repo # replace by your repo
+  repo: cuevash/Phenomic_101 # replace by your repo
   branch: master # replace if you want netlify-cms publish on a different branch
+  site_id: 'https://burgler-lilita-23637.netlify.com'
 
 public_folder: "content" # the same as your phenomic.source in your package.json
 media_folder: "content/assets" # the same as your phenomic.assets in your package.json

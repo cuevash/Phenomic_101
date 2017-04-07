@@ -1,6 +1,22 @@
 import React, { PropTypes } from "react"
 import Helmet from "react-helmet"
 
+// Initialize Firebase
+// TODO: Replace with your project's customized code snippet
+const firebase = (typeof window !== "undefined") ? require('firebase'): null
+
+if (firebase) {
+  var config = {
+    apiKey: "AIzaSyCizKsxwsbBhV9afNaRy8aio8VChjkGpnU",
+    authDomain: "sgfct-c5557.firebaseapp.com",
+    databaseURL: "https://sgfct-c5557.firebaseio.com",
+    projectId: "sgfct-c5557",
+    storageBucket: "sgfct-c5557.appspot.com",
+    messagingSenderId: "129125250884"
+  };
+  firebase.initializeApp(config);
+}
+
 const DefaultHeadMeta = (props, { metadata: { pkg } }) => (
   <div hidden>
     <Helmet
